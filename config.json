@@ -4,7 +4,7 @@
       "key": "heimuer",
       "name": "黑木耳影视",
       "type": 1,
-      "api": "https://json02.heimuer.xyz/api.php/provide/vod/?ac=list&page=fypage",
+      "api": "https://json02.heimuer.xyz/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12,17 +12,12 @@
   ],
   "parses": [
     {
-      "name": "解析①",
+      "name": "通用解析①",
       "type": 1,
       "url": "https://jx.playerjy.com/?url="
-    },
-    {
-      "name": "解析②",
-      "type": 1,
-      "url": "https://jx.jsonplayer.com/player/?url="
     }
   ],
-  "flags": ["youku", "iqiyi", "tencent", "qq", "mgtv", "bilibili"],
-  "wallpaper": "https://api.vvhan.com/api/acgimg?type=img",
+  "flags": ["heimuer"],
+  "wallpaper": "https://picsum.photos/1280/720?random=1",
   "spider": ""
 }

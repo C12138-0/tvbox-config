@@ -8,10 +8,43 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "量子资源",
+      "name": "量子资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "素白白",
+      "name": "素白白",
+      "type": 1,
+      "api": "https://suapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "自由追剧",
+      "name": "自由追剧",
+      "type": 1,
+      "api": "https://zyzj.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
-  "parses": [],
-  "flags": ["youku", "iqiyi", "tencent"],
-  "wallpaper": "",
+  "parses": [
+    {
+      "name": "通用解析",
+      "type": 1,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    }
+  ],
+  "flags": ["youku", "iqiyi", "tencent", "mgtv", "bilibili"],
+  "wallpaper": "https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images",
   "spider": ""
 }

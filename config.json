@@ -4,7 +4,7 @@
       "key": "heimuer",
       "name": "黑木耳影视",
       "type": 1,
-      "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
+      "api": "https://json02.heimuer.xyz/api.php/provide/vod/?ac=list&page=fypage",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12,7 +12,7 @@
   ],
   "parses": [
     {
-      "name": "通用解析",
+      "name": "解析1",
       "type": 1,
       "url": "https://jx.jsonplayer.com/player/?url="
     }
